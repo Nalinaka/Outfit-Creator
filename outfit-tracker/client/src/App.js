@@ -1,8 +1,4 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import DashboardPage from './pages/Dashboard'; // Adjust the path if necessary
-import Navbar from './components/Navbar';
-import CreateAccountForm from './pages/CreateAccount';
+
 import AddClothingItem from './components/UploadImage';
 import UploadImageForm from './components/UploadImageForm';
 import ItemDetailPage from './pages/ItemDetailPage';
@@ -43,16 +39,3 @@ const App = () => {
 };
 export default App;
 
-    //   <div>
-    //   <Visitor/>
-    // </div>
-// <Provider store={store}>
-//   {viewOutfits}
-// </Provider>
-
-// import AddClothingItem from './components/UploadImage'
-// import { Provider } from 'react-redux';
-// import { createStore } from 'redux';
-// // import scrollReducer from './ScrollableSection';
-// import Visitor from "./components/visitor";
-//const store = createStore(scrollReducer);
